@@ -1,1 +1,13 @@
-{{ "<!-- Layout with no content to avoid WARN message about missing page layout -->" | safeHTML }}
+{{ define "main" }}
+
+  {{ partial "single/single.html" . }}
+
+  {{ if .Params.include_footer }}
+  {{ partial "footer.html" . }}
+  {{ end }}
+
+  {{ if .Params.sidebar }}
+  {{ partial "single/sidebar.html" . }}
+  {{ end }}
+
+{{ end }}
