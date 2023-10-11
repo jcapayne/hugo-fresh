@@ -1,12 +1,12 @@
-name = "Hugo Fresh"
+name = "Hugo Fresh for micro.blog"
 license = "MIT"
-licenselink = "https://github.com/StefMa/hugo-fresh/blob/master/LICENSE.md"
-description = "A Hugo adaptation of the Fresh theme from CSS Ninja"
-homepage = "https://github.com/StefMa/hugo-fresh"
+licenselink = "https://github.com/jcapayne/hugo-fresh/blob/master/LICENSE.md"
+description = "A micro.blog adaptation of StefMa's Hugo adaptation of the Fresh theme from CSS Ninja"
+homepage = "https://github.com/jcapayne/hugo-fresh"
 tags = ["responsive", "one page", "light", "onepage", "company", "clean", "landing page"]
 features = []
 min_version = "0.45"
 
 [author]
-  name = "Stefan M."
-  homepage = "https://github.com/StefMa"
+  name = "John Payne"
+  homepage = "https://github.com/jcapayne"
